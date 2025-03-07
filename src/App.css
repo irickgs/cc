@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #0a0a0a;
   /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
@@ -36,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: white;
+  text-align: center;
+}
+
+.mail
+{
+  color: #9c9e7a;
 }

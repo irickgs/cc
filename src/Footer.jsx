@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-      <footer className="bg-gray-900 text-white text-center py-4">
+      <footer className='footer'>
         <p>© {new Date().getFullYear()} www.ciclismocordoba.com.ar</p>
-        <p>Contacto: <a href="mailto:ciclismocordoba@gmail.com" className="underline">ciclismocordoba@gmail.com</a></p>
+        <p>Contacto: <a href="mailto:ciclismocordoba@gmail.com" className="mail">ciclismocordoba@gmail.com</a></p>
       </footer>
     );
   };
